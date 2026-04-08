@@ -1,6 +1,10 @@
 spring:
-  application:
-    name: AuthVault
-  autoconfigure:
-    exclude:
-      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  datasource:
+    url: jdbc:postgresql://localhost:5432/authvault
+    username: postgres
+    password: Sonu@2003
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

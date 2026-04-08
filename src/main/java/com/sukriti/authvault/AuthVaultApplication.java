@@ -1,4 +1,4 @@
-package com.sukriti.AuthVault;
+package com.sukriti.authvault;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
